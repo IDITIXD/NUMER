@@ -53,7 +53,7 @@ void NUMER::Perevod()
 bool NUMER::Analiz()
 {
 
-	if (osnova < 2 || osnova>16)
+	if (osnova < 2 || osnova>9)
 	{
 		cout << "Неверное основание" << endl;
 		return false;
